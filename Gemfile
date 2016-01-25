@@ -16,6 +16,8 @@ gem 'coffee-rails', '~> 4.1.0'
 
 # Paperclip, for basic file attachment implementation
 gem "paperclip"
+# Sorcery, for simple authentication
+gem "sorcery"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

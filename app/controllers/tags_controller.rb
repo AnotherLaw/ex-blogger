@@ -13,4 +13,6 @@ class TagsController < ApplicationController
     
     redirect_to tags_url
   end
+  
+  before_filter :require_login, only: [:destroy]
 end
